@@ -2,7 +2,7 @@
 Network data Forwarder
 
 
-端口转发器
+转发器
 
 功能：
 支持本机和远程ip端口tcp数据转发。
@@ -32,10 +32,26 @@ Cpu  i3  2核心，4线程
 开源协议：
 项目基于GPLv3协议开源。
 
+项目代码：
+项目网址：https://github.com/ypcd/Forwarder 
 
-The following is from the google translation.
+使用说明：
 
-Port forwarders
+使用者，需要设定两个address。
+一个是转发器的监听address，一个是目标的address。
+这些设定都需要在源代码中设定。
+源代码forwarder.go -> main() -> service(第一个设定监听address) -> service(第二个设定目标address)
+
+两个service 同名，行数不同。
+
+设定好后，请在命令行中使用go install timerm，安装必要的包。
+然后使用go build forwarder.go 获得forwarder可执行程序。
+或者采用go run forwarder.go 直接运行。
+
+
+The content from the google translation
+
+Forwarder
 
 Features:
 Support local and remote ip port tcp data forwarding.
@@ -64,4 +80,20 @@ Hard disk Samsung solid state hard drive 120GiB
 
 Open source agreement:
 The project is based on the GPLv3 protocol.
+
+Item code:
+Project URL: https: //github.com/ypcd/Forwarder
+
+Instructions for use:
+
+The user needs to set two addresses.
+One is the monitor of the relay address, one is the target address.
+These settings need to be set in the source code.
+Source code forwarder.go -> main () -> service (the first set monitoring address) -> service (the second set the target address)
+
+Two service with the same name, the number of different rows.
+
+After setting up, use go install timerm on the command line to install the necessary packages.
+Then use go build forwarder.go to get the forwarder executable.
+Or run directly with go run forwarder.go.
 
