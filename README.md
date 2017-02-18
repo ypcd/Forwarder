@@ -5,7 +5,7 @@ Network data Forwarder
 转发器
 
 功能：
-支持本机和远程ip端口tcp数据转发。
+支持本机和远程ip tcp数据转发。
 支持tcp短连接（http等）和长连接（基于tcp大容量（GiB以上）文件传输）。
 
 工作流程简述：
@@ -30,7 +30,7 @@ Cpu  i3  2核心，4线程
 
 
 开源协议：
-项目基于GPLv3协议开源。
+项目基于GPLv3(http://www.gnu.org/licenses/gpl-3.0.html)协议开源。
 
 项目代码：
 项目网址：https://github.com/ypcd/Forwarder 
