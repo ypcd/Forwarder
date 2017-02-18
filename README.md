@@ -30,7 +30,7 @@ Cpu  i3  2核心，4线程
 
 
 开源协议：
-项目基于GPLv3(http://www.gnu.org/licenses/gpl-3.0.html)协议开源。
+项目基于GPLv3协议开源。(http://www.gnu.org/licenses/gpl-3.0.html)
 
 项目代码：
 项目网址：https://github.com/ypcd/Forwarder 
