@@ -93,7 +93,7 @@ Source code forwarder.go -> main () -> service (the first set monitoring address
 
 Two service with the same name, the number of different rows.
 
-After setting up, use go install timerm on the command line to install the necessary packages.
-Then use go build forwarder.go to get the forwarder executable.
-Or run directly with go run forwarder.go.
+After setting, use "go install timerm" on the command line to install the necessary packages.
+Then use the "go build forwarder.go" to get the forwarder executable.
+Or run directly with "go run forwarder.go".
 
